@@ -26,8 +26,10 @@
     "rules": {
         "import/prefer-default-export" : "off",
         "react/jsx-props-no-spreading" : "off",
+        "react/prop-types": "off",
         "react/require-default-props": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
+        "camelcase": "off",
         "prettier/prettier": "error",
 
         "import/extensions": [
