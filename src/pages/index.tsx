@@ -23,7 +23,7 @@ export default function SignIn() {
   console.log(errors);
 
   const handleSignIn: SubmitHandler<SignInFormData> = values => {
-    console.log(values);
+    console.log({ values });
   };
 
   return (
