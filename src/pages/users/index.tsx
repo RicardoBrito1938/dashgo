@@ -145,7 +145,7 @@ export default function UserList({ users }) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const { users, totalCount } = await getUsers(1);
+  const { users } = await getUsers(1);
 
   return {
     props: {
